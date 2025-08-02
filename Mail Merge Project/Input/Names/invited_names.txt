@@ -6,3 +6,6 @@ Sokka
 Momo
 Uncle Iroh
 Toph
+John
+Shende
+Gupta
