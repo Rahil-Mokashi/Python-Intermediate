@@ -5,7 +5,7 @@ import pyperclip # Used to directly copy any value to the clipboard
 
 # PASSWORD GENERATOR 
 
-#Password Generator Project
+#Password Generation
 def generate_password():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -40,7 +40,6 @@ def save():
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
 
-
 # UI SETUP 
 
 window = Tk()
@@ -69,7 +68,7 @@ website_entry.focus()
 
 email_entry = Entry(width=35)
 email_entry.grid(row=2, column=1, columnspan=2, pady=5)
-email_entry.insert(0, "angela@gmail.com")
+email_entry.insert(0, "rahilmokshi123@gmail.com")
 
 password_entry = Entry(width=21)
 password_entry.grid(row=3, column=1, pady=5)
